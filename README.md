@@ -27,4 +27,21 @@ Explore the full landing page at [Museum Landing Page](https://fetrw.github.io/M
 - Placeholder text for form inputs, with form validation to prevent empty submissions.
 - Favicon added for a polished touch.
 
+## 📚 How to Use
+- Clone the Repository
+```bash
+https://github.com/Fetrw/Museum_landing.git
+```
+- Navigate to the Project Directory
+```bash
+cd Museum_landing
+```
+- Install the Dependencies
+```bash
+npm install
+```
+- Start the Development Server
+```bash
+npm start
+```
 Enjoy building and exploring the beauty of this digital museum landing page!
