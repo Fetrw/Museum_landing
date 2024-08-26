@@ -13,3 +13,18 @@
 @import 'blocks/subscribe';
 @import 'blocks/footer';
 @import 'blocks/contacts';
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid $design-main-color;
+  -webkit-text-fill-color: $primary-text-color;
+  -webkit-box-shadow: 0 0 0 1000px $light-text-color inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
